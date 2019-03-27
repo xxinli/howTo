@@ -1,13 +1,17 @@
-# howTo
+# Tech Stack
 
-Node / NPM
-
-Upgrade Node:
-    1. sudo npm cache clean          -f (force) clear you npm cache
-    2. sudo npm install -g n         install n (this might take a while)
-    *3. sudo n stable                upgrade to the current stable version
+Node
+React
 
 
-* stable can be exchanged for latest, lts (long term support) or any specific version number such as 0.10.20.
+lerna: https://github.com/lerna/lerna
+GraphQL: https://graphql.org/
+Apollo: https://www.apollographql.com/docs/react/api/react-apollo
+Jest: https://jestjs.io/docs/en/tutorial-react
+Knex: https://knexjs.org/
+webpack: https://webpack.js.org/
 
-If the version number doesn't show up when typing node -v, you might have to reboot.
+postgreSQL
+postico
+docker
+react-test-renderer
